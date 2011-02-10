@@ -11,7 +11,8 @@ begin
     gem.homepage = "http://github.com/goncalossilva/kaltura_fu"
     gem.authors = ["Patrick Robertson"]
     gem.add_development_dependency "rspec", "= 1.3.0"
-    gem.add_development_dependency "activesupport", "~> 2.3.5"    
+    gem.add_development_dependency "activesupport", "~> 2.3.5"
+    gem.add_development_dependency "goncalossilva_kaltura-ruby", "~> 0.4.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
