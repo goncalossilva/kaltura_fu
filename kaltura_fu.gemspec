@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{kaltura_fu}
+  s.name = %q{goncalossilva-kaltura_fu}
   s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
      "spec/spec_helper.rb",
      "uninstall.rb"
   ]
-  s.homepage = %q{http://github.com/Velir/kaltura_fu}
+  s.homepage = %q{http://github.com/goncalossilva/kaltura_fu}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
@@ -65,16 +65,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, ["= 1.3.0"])
-      s.add_development_dependency(%q<activesupport>, [">= 0"])
-      s.add_runtime_dependency(%q<velir_kaltura-ruby>, [">= 0.4.3"])
+      s.add_development_dependency(%q<activesupport>, ["~> 2.3.5"])      
     else
       s.add_dependency(%q<rspec>, ["= 1.3.0"])
-      s.add_dependency(%q<activesupport>, [">= 0"])
-      s.add_dependency(%q<velir_kaltura-ruby>, [">= 0.4.3"])
+      s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
     end
   else
     s.add_dependency(%q<rspec>, ["= 1.3.0"])
-    s.add_dependency(%q<activesupport>, [">= 0"])
+    s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
     s.add_dependency(%q<velir_kaltura-ruby>, [">= 0.4.3"])
   end
 end

@@ -5,14 +5,13 @@ require 'yaml'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "kaltura_fu"
+    gem.name = "goncalossilva-kaltura_fu"
     gem.summary = "Rails gem for making Kaltura integrations easier."
     gem.email = "patrick.robertson@velir.com"
-    gem.homepage = "http://github.com/Velir/kaltura_fu"
+    gem.homepage = "http://github.com/goncalossilva/kaltura_fu"
     gem.authors = ["Patrick Robertson"]
     gem.add_development_dependency "rspec", "= 1.3.0"
-    gem.add_development_dependency "activesupport"
-    gem.add_dependency('velir_kaltura-ruby', '>=0.4.3')
+    gem.add_development_dependency "activesupport", "~> 2.3.5"    
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
